@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and keys
+infra/certs/*.pem
+infra/certs/*.crt
+infra/certs/*.key
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+audit_logs/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Docker
+.docker/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+*.spec
+*.msi
+*.dmg
+*.AppImage

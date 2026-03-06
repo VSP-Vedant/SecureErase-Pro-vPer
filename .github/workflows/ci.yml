@@ -1,0 +1,8 @@
+# GitHub Actions CI/CD — implemented in Phase 9
+name: CI
+on: [push]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
